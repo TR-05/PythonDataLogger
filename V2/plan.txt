@@ -1,0 +1,12 @@
+Decided to do an overhaul of the project due to performance issues, asthetic issues, and overall poor codebase organization.
+
+This time around I will:
+- use MatPlotLib's Animation methods to improve rendering time.
+- Allow for the user to choose the websocket connection, csv parsing, or function input for data collection.
+- Organize it in a more extendable and thoughtfull way.
+
+Structure:
+- main.py: runs the animation loop, importing data from external sources.
+- websocket.py: Establishes connection with Vexcode Pro extension over websocket, defines an update method.
+- csv.py: defines an update method.
+- simulate.py: defines an update method.
